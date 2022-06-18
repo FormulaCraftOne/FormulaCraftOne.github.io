@@ -4,6 +4,12 @@ You can use the [editor on GitHub](https://github.com/FormulaCraftOne/FormulaCra
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+$$ \begin{align}
+f(t) &= \int_{-\infty}^{\infty}{F(\omega)e^{2\pi i \omega t}}d\omega \\
+F(\omega) &= \int_{-\infty}^{\infty}{f(t)e^{-2\pi i \omega t}}dt
+\end{align}
+$$
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
