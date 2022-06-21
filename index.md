@@ -10,6 +10,9 @@ F(\omega) &= \int_{-\infty}^{\infty}{f(t)e^{-2\pi i \omega t}}dt
 \end{align}
 $$
 
+$$ e^{ix} = \operatorname{cos}x + i\operatorname{sin}x $$
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
