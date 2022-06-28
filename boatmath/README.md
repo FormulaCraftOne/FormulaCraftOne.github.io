@@ -174,3 +174,5 @@ a_o-\mu v_{o\parallel}\\
 0-\mu v_{o\perp}
 \end{pmatrix}f_0(t)
 \end{align}$$
+
+https://www.desmos.com/calculator/dnjdayap1d
