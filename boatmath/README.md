@@ -175,4 +175,4 @@ a_o-\mu v_{o\parallel}\\
 \end{pmatrix}f_0(t)
 \end{align}$$
 
-https://www.desmos.com/calculator/dnjdayap1d
+https://www.desmos.com/calculator/q91aggmyv1
