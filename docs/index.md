@@ -8,6 +8,8 @@
 layout: home
 ---
 
+# FormulaCraft One
+
 Fourier Transform:
 
 $$ \begin{align}
