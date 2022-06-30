@@ -8,16 +8,23 @@
 layout: home
 ---
 
-# FormulaCraft One
-
 Fourier Transform:
 
-$$ \begin{align}
+$$ 
+\begin{aligned}
 f(t) &= \int_{-\infty}^{\infty}{F(\omega)e^{2\pi i \omega t}}d\omega \\
 F(\omega) &= \int_{-\infty}^{\infty}{f(t)e^{-2\pi i \omega t}}dt
-\end{align}
+\end{aligned}
 $$
 
 Euler's Identity:
 
-$$ e^{ix} = \operatorname{cos}x + i\operatorname{sin}x $$
+$$ 
+e^{ix} = \operatorname{cos}x + i\operatorname{sin}x 
+$$
+
+Test tickmark syntax:
+
+```math
+\zeta
+```
