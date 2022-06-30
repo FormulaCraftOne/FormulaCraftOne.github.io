@@ -7,3 +7,15 @@
 #
 layout: home
 ---
+
+Fourier Transform:
+
+$$ \begin{align}
+f(t) &= \int_{-\infty}^{\infty}{F(\omega)e^{2\pi i \omega t}}d\omega \\
+F(\omega) &= \int_{-\infty}^{\infty}{f(t)e^{-2\pi i \omega t}}dt
+\end{align}
+$$
+
+Euler's Identity:
+
+$$ e^{ix} = \operatorname{cos}x + i\operatorname{sin}x $$
