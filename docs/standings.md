@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Season Standings
+title: Standings
 permalink: /standings/
 ---
 
