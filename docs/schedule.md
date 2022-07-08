@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Calendar
-permalink: /calendar/
+title: Schedule
+permalink: /schedule/
 ---
 
 Under Construction
