@@ -3,7 +3,8 @@
 
 .site-title::before {
   background-image: url('/assets/logo.png');
-  background-size: auto;
+  background-size: 64px 36px;
+  background-position: center;
   display: inline-block;
   top: 9px;
   right: 9px;
