@@ -11,6 +11,13 @@
   position: relative;
 }
 
+.site-title::before {
+  content: url("/assets/logo.png");
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
