@@ -57,7 +57,7 @@ minima:
 header_pages:
 - about.md
 - standings.md
-- calendar.md
+- schedule.md
 
 # Build settings
 theme: minima
