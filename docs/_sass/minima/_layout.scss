@@ -13,10 +13,10 @@
 
 .site-title::before {
   background-image: url('/assets/logo.png');
-  background-size: auto;
+  background-size: 64px 36px;
   display: inline-block;
-  width: 80px; 
-  height: 45px;
+  width: 64px; 
+  height: 36px;
   content:"";
 }
 
