@@ -10,6 +10,20 @@ show_excerpts: false # set to true to show excerpts on the homepage
 markdown: kramdown
 kramdown:
   math_engine: katex
+  
+# You must install giscus github app before use.(https://github.com/apps/giscus)
+# Make sure all variables are set properly. Check below link for detail.
+# https://giscus.vercel.app/
+giscus:
+  repo:                "FormulaCraftOne/giscus-comments"
+  repo-id:             "[your-repo-id]"
+  category:            "Comments"
+  category-id:         "[your-category-id]"
+  mapping:             "pathname"
+  reaction-enabled:    "1"
+  theme:               "dark_dimmed"
+  crossorigin:         "anonymous"  
+  
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -65,3 +79,7 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+comments:
+  # 'disqus' / 'giscus' / 'utterances' are available
+  provider: giscus
