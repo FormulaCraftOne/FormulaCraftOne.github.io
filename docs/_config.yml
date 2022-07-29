@@ -15,19 +15,19 @@ kramdown:
 # Make sure all variables are set properly. Check below link for detail.
 # https://giscus.vercel.app/
 giscus:
-  repo:"formulacraftone/giscus-comments"
-  repo-id:"R_kgDOHvENWA"
-  category:"Announcements"
-  category-id:"DIC_kwDOHvENWM4CQgA9"
-  mapping:"url"
-  strict:"1"
-  reactions-enabled:"0"
-  emit-metadata:"0"
-  input-position:"top"
-  theme:"dark"
-  lang:"en"
-  loading:"lazy"
-  crossorigin:"anonymous"
+  repo: formulacraftone/giscus-comments
+  repo-id: R_kgDOHvENWA
+  category: Announcements
+  category-id: DIC_kwDOHvENWM4CQgA9
+  mapping: url
+  strict: 1
+  reactions-enabled: 0
+  emit-metadata: 0
+  input-position: top
+  theme: dark
+  lang: en
+  loading: lazy
+  crossorigin: anonymous
   
 
 # Minima date format
