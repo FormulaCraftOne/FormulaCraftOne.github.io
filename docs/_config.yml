@@ -26,7 +26,7 @@ giscus:
   input-position: top
   theme: dark
   lang: en
-  loading: lazy
+  loading: eager
   crossorigin: anonymous
   
 
