@@ -18,9 +18,5 @@ details {
     background-color: $code-background-color;
     border-radius: 4px;
     padding-left: .5em;
-}
-
-
-details[open] {
-    padding-left: .5em;
+    margin-bottom: .5em;
 }
