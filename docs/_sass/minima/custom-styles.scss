@@ -14,7 +14,8 @@
 }
 
 details {
-    border: 1px solid $code-background-color;
+    border: 1px solid $border-color-01;
+    background-color: $code-background-color;
     border-radius: 4px;
     padding-left: .5em;
 }
