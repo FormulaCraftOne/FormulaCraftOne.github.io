@@ -1,0 +1,62 @@
+{% assign provider = site.comments.provider | default:"disqus" %}
+{% if provider == "disqus" %}
+  {% assign disqus = site.disqus | default:site.disqus_shortname %}
+  {% if disqus %}
+
+<!-- original disqus codes -->
+{%- if page.comments != false and jekyll.environment == "production" -%}
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = '{{ page.url | absolute_url }}';
+      this.page.identifier = '{{ page.url | absolute_url }}';
+    };
+
+    (function() {
+      var d = document, s = d.createElement('script');
+
+      s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
+
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{%- endif -%}
+<!-- end of original disqus codes -->
+
+  {% endif %}
+{% elsif provider == "utterances" %}
+  {% assign utterances = site.utterances %}
+  {% if utterances.repo %}
+    <script src="https://utteranc.es/client.js"
+            repo={{ utterances.repo }}
+            issue-term={{ utterances.issue-term }}
+            label={{ utterances.label }}
+            theme={{ utterances.theme }}
+            crossorigin= "anonymous"
+            async>
+    </script>
+  {% endif %}
+{% elsif provider == "giscus" %}
+  {% assign giscus = site.giscus %}
+  {% if giscus.repo %}
+    <script src="https://giscus.app/client.js"
+            data-repo={{ giscus.repo }}
+            data-repo-id={{ giscus.repo-id }}
+            data-category={{ giscus.category }}
+            data-category-id={{ giscus.category-id }}
+            data-mapping={{ giscus.mapping }}
+            data-strict={{ giscus.strict }}
+            data-reactions-enabled={{ giscus.reactions-enabled }}
+            data-emit-metadata={{ giscus.emit-metadata }}
+            data-input-position={{ giscus.input-position }}
+            data-theme={{ giscus.theme }}
+            data-lang={{ giscus.lang }}
+            data-loading={{ giscus.loading }}
+            crossorigin={{ giscus.crossorigin }}
+            async>
+    </script>
+  {% endif %}
+{% endif %}
