@@ -12,3 +12,14 @@
   width: 72px;
   height: 36px;
 }
+
+details {
+    border: 1px solid $code-background-color;
+    border-radius: 4px;
+    padding-left: .5em;
+}
+
+
+details[open] {
+    padding-left: .5em;
+}
